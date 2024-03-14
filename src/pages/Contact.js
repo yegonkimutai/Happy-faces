@@ -1,8 +1,9 @@
 import { AiOutlineMail } from 'react-icons/ai';
-
+import '../style/Contact.css'
 import { BsWhatsapp } from 'react-icons/bs';
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Contact() {
   const form = useRef();
@@ -41,7 +42,7 @@ function Contact() {
           <input type="name" name="name" placeholder="Full Name" required />
           <input type="email" name="email" placeholder="Email" required />
           <textarea name="message" placeholder="Message" rows="10" />
-          <button type="submit" className="btn primary">Send Message 📫 </button>
+          <button type="submit" className="form-btn">Send Message 📫 </button>
         </form>
       </div>
     </section>
