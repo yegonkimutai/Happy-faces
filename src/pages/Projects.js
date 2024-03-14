@@ -20,7 +20,7 @@ function Projects() {
     </div>
 
          <h1 className='proj-title'>Project 2: Tujimudu Project </h1>
-    <div className='proj-cont-rev'>
+    <div className='proj-cont'>
          <div className='cont'>
         <div className='img-cont'>
             <img src={image11} alt=''  className='proj-img'/>

@@ -4,8 +4,8 @@ import '../style/About.css'
 function About() {
   return (
     <div>
-        <h1>About</h1>
-        <p>
+        <h1 className='abt-title'>About</h1>
+        <p className='abt-desc'>
         Happy Faces Empowerment Network started as a social welfare group back in 2017 by
         young high schoolers who would visit children's homes, rescue centers, and vulnerability centers
         during holidays. After the completion of high school, the group members decided to officially register the
@@ -13,8 +13,9 @@ function About() {
         purpose during the organization's registration was to rescue vulnerable, orphaned, disabled, and
 
         marginalized kids, situate them in our partner centers, and subsequently provide for their basic
-        needs like food and clothing while they are there. However, a Daily Nation report of 30th March
-        2023 (https://nation.africa/kenya/news/orphanage-children-the-bane-of-turning-18--4217742)
+        needs like food and clothing while they are there. However, a Daily Nation report of 
+         <a href='https://nation.africa/kenya/news/orphanage-children-the-bane-of-turning-18--4217742' target='_blank' rel="noreferrer"> 30th March
+        2023 </a> 
         highlighted the plight of these children once they get to the age of 18, where their contract with
         the centers end, and most of them do not get to enjoy a smooth transition into normal lives.
         Especially for the unsuccessful in their education, the males and females expressed finding
