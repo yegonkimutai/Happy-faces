@@ -6,6 +6,7 @@ import image2 from '../images/img2.jpg'
 import image3 from '../images/img3.jpg'
 import image4 from '../images/img4.webp'
 import image5 from '../images/img5.png'
+import '../style/Home.css'
 
 export default function Home() {
     const [count, setCount] = useState(0);
@@ -59,22 +60,22 @@ export default function Home() {
   return (
     <div className="App">
       <div className= 'car-cont'>
-        <div className='img-cont'>
-          {/* <div className='image' style={{marginLeft: margin}}>
-          <img id='imgbg' src={image1} alt='' />
+        <div className='img-cont-home'>
+          <div className='image' style={{marginLeft: margin}}>
+          <img className='bg-image' src={image1} alt='' />
           </div>
           <div className='image'>
-          <img id='imgbg' src={image2} alt='' />
+          <img className='bg-image'  src={image2} alt='' />
           </div>
           <div className='image'>
-          <img id='imgbg' src={image3} alt='' />
-          </div>
-          <div id='imgbg' className='image'>
-          <img src={image4} alt='' />
+          <img className='bg-image'  src={image3} alt='' />
           </div>
           <div className='image'>
-          <img id='imgbg' src={image5} alt='' />
-          </div> */}
+          <img className='bg-image'  src={image4} alt='' />
+          </div>
+          <div className='image'>
+          <img className='bg-image' src={image5} alt='' />
+          </div>
         </div>
       </div>
     </div>
