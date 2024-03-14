@@ -4,9 +4,9 @@ import '../style/Projects.css'
 
 function Projects() {
   return (
-    <>
+    <div>
+         <h1 className='proj-title'>Project 1: Tuwatunze Initiative </h1>
          <div className='proj-cont'>
-         <h1>Project 1: Tuwatunze Initiative </h1>
          <div className='cont'>
         <div className='img-cont'>
             <img src={image11} alt=''  className='proj-img'/>
@@ -19,8 +19,8 @@ function Projects() {
     </div>
     </div>
 
-    <div className='proj-cont'>
-         <h1>Project2: Tujimudu Project </h1>
+         <h1 className='proj-title'>Project 2: Tujimudu Project </h1>
+    <div className='proj-cont-rev'>
          <div className='cont'>
         <div className='img-cont'>
             <img src={image11} alt=''  className='proj-img'/>
@@ -49,7 +49,7 @@ function Projects() {
         </div>
     </div>
     </div>
-    </>
+    </div>
     
   )
 }
