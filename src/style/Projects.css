@@ -48,12 +48,16 @@
 @media (max-width: 500px) {
     .cont {
         display: grid;
-        grid-template-rows: 90%;
-        grid-template-columns: 90%;
+        grid-template-rows: 95%;
+        grid-template-columns: 95%;
         grid-template-areas: 
         'image'
         'description' 
         ;
+    }
+
+    .proj-cont {
+        max-width: 90%;
     }
 
     .proj-img {
