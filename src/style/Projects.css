@@ -1,0 +1,42 @@
+.cont {
+    display: grid;
+    grid-template-rows: 30% 30%;
+    grid-template-areas: 
+    'image description' 
+    ;
+    justify-content: center;
+    align-items: center;
+}
+
+.proj-img {
+    max-width: 30rem;
+    max-height: 20rem;
+    margin: auto;
+}
+
+.description {
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 500px) {
+    .cont {
+        display: grid;
+        grid-template-rows: 90%;
+        grid-template-areas: 
+        'image'
+        'description' 
+        ;
+    }
+
+    .img-cont {
+        height: 80%;
+        width: 90%;
+        margin: auto;
+    }
+
+    .description {
+        padding: 2rem;
+        margin: 0;
+    }
+}

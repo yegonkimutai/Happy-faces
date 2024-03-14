@@ -60,21 +60,21 @@ export default function Home() {
     <div className="App">
       <div className= 'car-cont'>
         <div className='img-cont'>
-          <div className='image' style={{marginLeft: margin}}>
-          <img src={image1} alt='' />
+          {/* <div className='image' style={{marginLeft: margin}}>
+          <img id='imgbg' src={image1} alt='' />
           </div>
           <div className='image'>
-          <img src={image2} alt='' />
+          <img id='imgbg' src={image2} alt='' />
           </div>
           <div className='image'>
-          <img src={image3} alt='' />
+          <img id='imgbg' src={image3} alt='' />
           </div>
-          <div className='image'>
+          <div id='imgbg' className='image'>
           <img src={image4} alt='' />
           </div>
           <div className='image'>
-          <img src={image5} alt='' />
-          </div>
+          <img id='imgbg' src={image5} alt='' />
+          </div> */}
         </div>
       </div>
     </div>
