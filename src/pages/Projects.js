@@ -1,29 +1,27 @@
 import React from 'react'
 import image11 from '../images/img11.jpeg'
+import image7 from '../images/img7.jpeg'
 import '../style/Projects.css'
 
 function Projects() {
   return (
     <div>
          <h1 className='proj-title'>Project 1: Tuwatunze Initiative </h1>
-         <div className='proj-cont'>
-         <div className='cont'>
-        <div className='img-cont'>
-            <img src={image11} alt=''  className='proj-img'/>
-        </div>
-        <div className='description'>
-            This project involves rescuing vulnerable, orphaned, disabled, and
-            marginalized kids, situate them in our partner centers, and subsequently provide for their basic
-            needs like food and clothing while they are there.
-        </div>
-    </div>
+        <div className='proj-cont'>
+          <div className='img-cont'>
+              <img src={image11} alt=''  className='proj-img'/>
+          </div>
+          <div className='description'>
+              This project involves rescuing vulnerable, orphaned, disabled, and
+              marginalized kids, situate them in our partner centers, and subsequently provide for their basic
+              needs like food and clothing while they are there.
+          </div>
     </div>
 
          <h1 className='proj-title'>Project 2: Tujimudu Project </h1>
     <div className='proj-cont'>
-         <div className='cont'>
         <div className='img-cont'>
-            <img src={image11} alt=''  className='proj-img'/>
+            <img src={image7} alt=''  className='proj-img'/>
         </div>
         <div className='description'>
       It focuses on providing technical skills, employing at the Tujimudu workshop, and subsequently making it possible for trainees to start their enterprises in the future through providing
@@ -48,9 +46,7 @@ function Projects() {
     almost similar privileges to the rest of the situation, the rates of suicide would go down.
         </div>
     </div>
-    </div>
-    </div>
-    
+    </div>    
   )
 }
 

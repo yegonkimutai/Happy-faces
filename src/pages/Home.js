@@ -53,7 +53,7 @@ export default function Home() {
           setCount(count - 1)
           shift(count)
         }
-      }, 2000)
+      }, 1000)
     }
   }
 
