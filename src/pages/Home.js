@@ -58,26 +58,14 @@ export default function Home() {
   }
 
   return (
-    <div className="App">
-      <div className= 'car-cont'>
-        <div className='img-cont-home'>
-          <div className='image' style={{marginLeft: margin}}>
-          <img className='bg-image' src={image1} alt='' />
-          </div>
-          <div className='image'>
-          <img className='bg-image'  src={image2} alt='' />
-          </div>
-          <div className='image'>
-          <img className='bg-image'  src={image3} alt='' />
-          </div>
-          <div className='image'>
-          <img className='bg-image'  src={image4} alt='' />
-          </div>
-          <div className='image'>
-          <img className='bg-image' src={image5} alt='' />
-          </div>
-        </div>
-      </div>
+    <div className="app-home">
+      <div className= 'car-cont'></div>
+      <div className='content '>
+      <h1>HAPPY FACES</h1>
+      <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur temporibus facilis quaerat cumque amet accusamus obcaecati dicta laboriosam veritatis? Mollitia?
+      </p>
+    </div>
     </div>
   );
 }
