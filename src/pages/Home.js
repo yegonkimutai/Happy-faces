@@ -3,6 +3,7 @@ import React from 'react'
 import { FaInstagram } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
+import { SiMinutemailer } from "react-icons/si";
 import '../style/Home.css'
 
 export default function Home() {
@@ -67,6 +68,10 @@ export default function Home() {
       <p>
       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur temporibus facilis quaerat cumque amet accusamus obcaecati dicta laboriosam veritatis? Mollitia?
       </p>
+        <button className='home-btn'>
+        Send Email
+        <span className='icon-home'><SiMinutemailer /></span>
+        </button>
     </div>
     </div>
   );
