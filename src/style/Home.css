@@ -6,6 +6,21 @@
   gap: 3rem;
 }
 
+.home-socials {
+  display: grid;
+  grid-template-columns: max-content;
+  row-gap: 1rem;
+}
+
+.home-socials a {
+  color: black;
+}
+
+.home-socials a:hover {
+  cursor: pointer;
+  color: aquamarine;
+}
+
 .content {
   max-width: 40%;
 }
@@ -16,7 +31,7 @@
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
-   justify-self: center;
+   justify-content: center;
    order: 1;
    width: 300px;
    height: 300px;
