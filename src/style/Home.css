@@ -13,7 +13,7 @@
 }
 
 .home-socials a {
-  color: black;
+  color: #4169E1;
 }
 
 .home-socials a:hover {
@@ -27,13 +27,13 @@
 
 .content h1 {
   text-align: center;
-  font-size: 3.5rem;
-  color: #001638;
+  font-size: 3rem;
+  color: #4CC9F0;
 }
 
 .car-cont {
   max-width: 40%;
-   background: url('../images/img1.jpg');
+   background: url('../images/HPLogo.jpeg');
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
@@ -41,7 +41,7 @@
    order: 1;
    width: 300px;
    height: 300px;
-   box-shadow: inset 0 0 0 9px rgb(255 255 255 / 30%);
+   box-shadow: inset 0 0 0 9px rgba(15, 15, 15, 0.3);
    animation: profile-anime 8s ease-in-out infinite 1s;
   }
 
@@ -60,7 +60,7 @@
   }
 
   .home-btn {
-    background-color: #001638;
+    background-color: #4169E1;
     color: #fff;
     border: none;
     padding: 0.8rem;
@@ -96,8 +96,9 @@
     .car-cont {
       order: initial;
       align-self: center;
-      box-shadow: inset 0 0 0 6px rgb(255 255 255 / 30%);
+      box-shadow: inset 0 0 0 6px rgba(6, 6, 6, 0.3);
       height: 200px;
+      max-width: 70%;
     }
 
     .content {
@@ -117,19 +118,20 @@
 
   @media (max-width: 450px) {
     .car-cont {
-      width: 220px;
+      max-width: 70% ;
       height: 180px;
     }
   }
 
   @media (max-width: 350px) {
     .car-cont {
-      width: 150px;
+      max-width: 60%;
       height: 150px;
     }
 
     .content {
-      padding: 0.5rem;
+      padding: 1rem;
+      max-width: 100%;
     }
 
     .content h1 {
