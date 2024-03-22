@@ -13,8 +13,7 @@
 }
 
 .car-cont img {
-    width: 500px;
-    height: 400px;
+    width: 35vw;
     order: 1;
     box-sizing: border-box;
     animation: profile-anime 8s ease-in-out infinite 1s;
@@ -72,7 +71,7 @@
   .home-btn {
     display: inline-block;
     padding: 1rem 2.5rem;
-    background: var(--main-color);
+    background: var(--second-main);
     border-radius: 4rem;
     box-shadow: 0 0 1rem var(--main-color);
     color: var(--text-color);
