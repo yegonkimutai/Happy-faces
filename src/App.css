@@ -7,8 +7,7 @@
   outline: none;
   font-family: "Solway", serif;
   background: var(--bg-color);
-  color: var(--text-color);
-
+  /* color: var(--text-color); */
 }
 
 :root {
@@ -16,6 +15,6 @@
   --second-bg-color: #323946;
   --text-color: #fff;
   --main-color: #4CC9F0;
-  --second-main: #4169E1;
+  --second-main-color: #4169E1;
 }
 

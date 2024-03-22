@@ -1,0 +1,83 @@
+.main-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+    margin: auto;
+    max-height: 100vh;
+    color: var(--text-color);
+}
+
+.car-cont {
+    max-width: 40%;
+}
+
+.car-cont img {
+    width: 500px;
+    height: 400px;
+    order: 1;
+    box-sizing: border-box;
+    animation: profile-anime 8s ease-in-out infinite 1s;
+}
+
+
+.home-content h3 {
+    font-size: 2rem;
+}
+
+.home-content h1 {
+    font-size: 3.5rem;
+    color: #4CC9F0;
+}
+
+.home-content p {
+    font-size: 1.3rem;
+}
+
+.home-socials a  {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    background: transparent;
+    color: var(--main-color);
+    border: 0.2rem solid var(--main-color);
+    border-radius: 50%;
+    font-size: 1.2rem;
+    margin: 2rem 1rem 3rem 0;
+    transition: 0.5s ease;
+}
+
+.home-socials a:hover {
+    background: var(--main-color);
+    color: var(--second-main);
+    box-shadow: 0 0 1rem var(--main-color);
+}
+
+@keyframes profile-anime {
+    0% {
+      border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+
+    50% {
+      border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+    }
+
+    100% {
+      border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+  }
+
+  .home-btn {
+    display: inline-block;
+    padding: 1rem 2.5rem;
+    background: var(--main-color);
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem var(--main-color);
+    color: var(--text-color);
+  }
+
+  .home-btn:hover {
+    box-shadow: none;
+  }
