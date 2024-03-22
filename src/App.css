@@ -1,5 +1,21 @@
-/* body {
-  color: white;
-  background-color: black;
-} */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  font-family: "Solway", serif;
+  background: var(--bg-color);
+  color: var(--text-color);
+
+}
+
+:root {
+  --bg-color: #1f242d;
+  --second-bg-color: #323946;
+  --text-color: #fff;
+  --main-color: #4CC9F0;
+  --second-main: #4169E1;
+}
 

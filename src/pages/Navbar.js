@@ -1,10 +1,11 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import '../style/Navbar.css'
 
 function NavScrollExample() {
   return (
-    <Navbar expand="lg"  className="bg-dark-tertiary">
+    <Navbar expand="lg"  className="bg-dark-tertiary navbar-dark">
       <Container fluid>
         <Navbar.Brand href="#">LOGO</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
