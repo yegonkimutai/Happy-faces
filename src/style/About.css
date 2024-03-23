@@ -35,3 +35,25 @@
 .abt-btn:hover {
     box-shadow: none;
 }
+
+@media (max-width: 768px) {
+    section {
+        padding: 0;
+    }
+
+    .about {
+        flex-direction: column;
+    }
+
+    .abt-img img {
+        width: 60vw;
+    }
+
+    .abt-desc {
+        font-size: 1rem;
+    }
+
+    .abt-btn {
+        font-size: 1.2rem;
+    }
+}

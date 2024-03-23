@@ -15,9 +15,34 @@
   --second-main: #4169E1;
 }
 
-#root {
+html, #root {
   background: var(--bg-color);
-  height: 100vh;
+  height: 100%;
+  margin: 0;
+  background-size: cover;
   color: var(--text-color);
 }
 
+@media (max-width: 1200px) {
+  html, #root {
+    font-size: 60%;
+  }
+}
+
+@media (max-width: 990px) {
+  section {
+    padding: 10rem 3% 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  html, #root {
+    font-size: 65%;
+  }
+}
+
+@media (max-width: 450px) {
+  html, #root {
+    font-size: 70%;
+  }
+}

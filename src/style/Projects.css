@@ -10,7 +10,7 @@
 
 .main-project {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 40%);
+    grid-template-columns: repeat(2, 40%);
     align-items: center;
     justify-content: center;
     gap: 2rem;
@@ -60,4 +60,14 @@
 
 .proj-layer p {
     font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+    .proj-title {
+        margin-bottom: 3rem;
+    }
+
+    .main-project {
+        grid-template-columns: 90%;
+    }
 }
