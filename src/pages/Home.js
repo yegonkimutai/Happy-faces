@@ -1,9 +1,10 @@
 /* eslint-disable default-case */
 import React from 'react'
-import { FaInstagram } from "react-icons/fa";
+import { IoLogoInstagram } from "react-icons/io";
 import { FaTwitter } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
 import { SiMinutemailer } from "react-icons/si";
+import logo from '../images/HPLogo.jpeg'
 import '../style/Home.css'
 
 export default function Home() {
@@ -56,23 +57,28 @@ export default function Home() {
   // }
 
   return (
-    <div className="app-home">
-    <div className='home-socials'>
-      <a href=''> <FaInstagram /> </a>
-      <a href=''> <FaTwitter /> </a>
-      <a href=''> <FaWhatsapp /> </a>
-    </div>
-      <div className= 'car-cont'></div>
-      <div className='content '>
-      <h1>HAPPY FACES</h1>
-      <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur temporibus facilis quaerat cumque amet accusamus obcaecati dicta laboriosam veritatis? Mollitia?
-      </p>
+    <>
+     <section className='main-home'>
+      <div className='home-content '>
+        <h3>Hello, Welcome to</h3>
+        <h1>HAPPY FACES</h1>
+        <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur temporibus facilis quaerat cumque amet accusamus obcaecati dicta laboriosam veritatis? Mollitia?
+        </p>
+        <div className='home-socials'>
+          <a href='' > <IoLogoInstagram/> </a>
+          <a href=''> <FaTwitter/> </a>
+          <a href=''> <FaWhatsapp /> </a>
+        </div>
         <button className='home-btn'>
-        Send Email
-        <span className='icon-home'><SiMinutemailer /></span>
+          Send Email
+          <span className='icon-home'><SiMinutemailer /></span>
         </button>
-    </div>
-    </div>
+      </div>
+      <div className= 'car-cont'>
+        <img src={logo} alt=''/>
+      </div>
+     </section>
+    </>
   );
 }

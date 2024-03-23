@@ -1,5 +1,48 @@
-/* body {
-  color: white;
-  background-color: black;
-} */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  font-family: "Solway", serif;
+}
 
+:root {
+  --bg-color: #1f242d;
+  --text-color: #fff;
+  --main-color: #4CC9F0;
+  --second-main: #4169E1;
+}
+
+html, #root {
+  background: var(--bg-color);
+  height: 100%;
+  margin: 0;
+  background-size: cover;
+  color: var(--text-color);
+}
+
+@media (max-width: 1200px) {
+  html, #root {
+    font-size: 60%;
+  }
+}
+
+@media (max-width: 990px) {
+  section {
+    padding: 10rem 3% 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  html, #root {
+    font-size: 65%;
+  }
+}
+
+@media (max-width: 450px) {
+  html, #root {
+    font-size: 70%;
+  }
+}

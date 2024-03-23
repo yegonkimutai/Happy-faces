@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function NavScrollExample() {
   return (
-    <Navbar expand="lg"  className="bg-dark-tertiary">
+    <Navbar expand="lg"  className="bg-dark-tertiary navbar-dark">
       <Container fluid>
         <Navbar.Brand href="#">LOGO</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />

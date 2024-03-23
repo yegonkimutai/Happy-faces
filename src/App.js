@@ -10,7 +10,7 @@ import Contact from './pages/Contact';
 
 function App() {
   return (
-    <>
+    <div className='main-app'>
     <NavScrollExample />
     <div className="components">
       <Routes>
@@ -20,7 +20,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </div>
-    </>
+    </div>
   );
 }
 
