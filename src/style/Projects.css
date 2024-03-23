@@ -71,3 +71,9 @@
         grid-template-columns: 90%;
     }
 }
+
+@media (max-width:350px) {
+    .proj-layer p {
+        font-size: 1rem;
+    }
+}

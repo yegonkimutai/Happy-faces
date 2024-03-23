@@ -6,6 +6,7 @@ import { FaWhatsapp } from "react-icons/fa";
 import { SiMinutemailer } from "react-icons/si";
 import logo from '../images/HPLogo.jpeg'
 import '../style/Home.css'
+import Typewriter from 'typewriter-effect'
 
 export default function Home() {
   //   const [count, setCount] = useState(0);
@@ -61,7 +62,19 @@ export default function Home() {
      <section className='main-home'>
       <div className='home-content '>
         <h3>Hello, Welcome to</h3>
-        <h1>HAPPY FACES</h1>
+        <h1>
+        <Typewriter
+            options={{
+              autoStart: true,
+              loop: true,
+              delay: 40,
+              strings: [
+                'HAPPY FACES',
+                'EMPOWERMENT NETWORK'
+              ],
+            }}
+          />
+        </h1>
         <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur temporibus facilis quaerat cumque amet accusamus obcaecati dicta laboriosam veritatis? Mollitia?
         </p>
