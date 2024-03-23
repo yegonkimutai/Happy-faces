@@ -1,5 +1,6 @@
 /* eslint-disable default-case */
 import './App.css';
+import './style.css';
 import { Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import NavScrollExample from './pages/Navbar';

@@ -13,20 +13,20 @@
 }
 
 .car-cont img {
-    width: 35vw;
-    order: 1;
-    box-sizing: border-box;
-    animation: profile-anime 8s ease-in-out infinite 1s;
+  width: 35vw;
+  order: 1;
+  box-sizing: border-box;
+  animation: profile-anime 8s ease-in-out infinite 1s;
 }
 
 
 .home-content h3 {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 .home-content h1 {
-    font-size: 3.5rem;
-    color: #4CC9F0;
+  font-size: 3.5rem;
+  color: #4CC9F0;
 }
 
 .home-content p {
