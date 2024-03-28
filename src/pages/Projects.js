@@ -13,9 +13,7 @@ function Projects() {
           <div className='proj-layer'>
             <h4>Tuwatunze Initiative</h4>
             <p>
-            This project involves rescuing vulnerable, orphaned, disabled, and
-            marginalized kids, situate them in our partner centers, and subsequently provide for their basic
-            needs like food and clothing while they are there.
+            This project involves rescuing vulnerable, orphaned, disabled, and marginalized kids in order to situate them in our partner centres. Subsequently, we tend to provide for their basic needs, such as food and clothing while they are there.
             </p>
           </div>
         </div>
@@ -25,8 +23,7 @@ function Projects() {
         <div className='proj-layer'>
           <h4>Tujimudu Project </h4>
           <p>
-          It focuses on providing technical skills, employing at the Tujimudu workshop, and subsequently making it possible for trainees to start their enterprises in the future through providing
-          seed capital funding on top of their savings at the Tujidumu Sacco during their paid-for internship work period. 
+          This project focuses on providing technical skills and employment at the Tujimudu workshop. Furthermore, the project makes it possible for trainees to start their own enterprises in the future. This is made feasible by providing seed capital funding on top of their savings at the Tujidumu Sacco during their paid-for internship work period.
           </p>
         </div>
       </div>
