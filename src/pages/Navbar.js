@@ -1,12 +1,16 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import logo from '../images/HPLogo.jpeg'
+import '../style/Navbar.css'
 
 function NavScrollExample() {
   return (
-    <Navbar expand="lg"  className="bg-dark-tertiary navbar-dark">
+    <Navbar expand="lg"  className="bg-dark-tertiary navbar-dark fs-5">
       <Container fluid>
-        <Navbar.Brand href="#">LOGO</Navbar.Brand>
+        <Navbar.Brand href="/">
+        <img className='nav-img' src={logo} alt='Happy faces Logo'/>
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
