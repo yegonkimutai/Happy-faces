@@ -18,6 +18,7 @@
   order: 1;
   box-sizing: border-box;
   animation: profile-anime 8s ease-in-out infinite 1s;
+  margin-bottom: 2rem;
 }
 
 

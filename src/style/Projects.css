@@ -67,6 +67,10 @@
         margin-bottom: 3rem;
     }
 
+    .project-box {
+        margin-bottom: 2rem;
+    }
+
     .main-project {
         grid-template-columns: 95%;
     }

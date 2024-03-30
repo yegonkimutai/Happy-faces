@@ -66,6 +66,7 @@
     border-radius: 10px;
     background-color: var(--second-main);
     color: var(--text-color);
+    margin-bottom: 2rem;
   }
   
 .form-btn:hover {
