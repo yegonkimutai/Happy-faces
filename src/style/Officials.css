@@ -1,0 +1,7 @@
+.official-main {
+    display: grid;
+    grid-template-columns: repeat(3, 25%);
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
