@@ -4,31 +4,28 @@ import '../style/Officials.css'
 
 function Officials() {
   return (
-    <div className='official-main'>
-        <div className='port-main'>
-            <div className='port-img'>
-                <img src={portrait} alt=''/>
+    <>
+        <h1 className='official-header'>OFFICIALS</h1>
+        <div className='official-main'>
+            <div className='port-main'>
+                <img src={portrait} alt='' className='port-img'/>
+                <h3>Name:</h3>
+                <h5>Title:</h5>
             </div>
-            <h3>Name:</h3>
-            <h5>Title:</h5>
-        </div>
 
-        <div className='port-main'>
-            <div className='port-img'>
-                <img src={portrait} alt=''/>
+            <div className='port-main'>
+                <img src={portrait} alt='' className='port-img'/>
+                <h3 className='port-name'>Name:</h3>
+                <h5 port-desc>Title:</h5>
             </div>
-            <h3>Name:</h3>
-            <h5>Title:</h5>
-        </div>
 
-        <div className='port-main'>
-            <div className='port-img'>
-                <img src={portrait} alt=''/>
+            <div className='port-main'>
+                <img src={portrait} alt='' className='port-img'/>
+                <h3>Name:</h3>
+                <h5>Title:</h5>
             </div>
-            <h3>Name:</h3>
-            <h5>Title:</h5>
         </div>
-    </div>
+    </>
   )
 }
 
