@@ -7,6 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Projects from './pages/Projects';
 import About from './pages/About';
 import Contact from './pages/Contact';
+import Officials from './pages/Officials';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/officials" element={<Officials />} />
       </Routes>
     </div>
     </div>
